@@ -1,0 +1,750 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.hero-sec {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-blend-mode: overlay;
+} 
+
+.hero-sec{
+
+  height: auto !important;
+}
+
+.hero-sec:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.hero-sec .content-sec{ 
+  position: relative;
+  width: 100%;
+  padding: 100px 20px;
+}
+
+.hero-sec .content-sec .section-subtitle{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+.hero-sec .content-sec .section-title{
+    text-shadow: 0px 7px 10px rgb(0 0 0 / 10%);
+    text-transform: capitalize;
+    max-width: 600px;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 74px;
+}
+
+.hero-sec .content-sec .heading__description p {
+    font-size: 15px;
+    max-width: 600px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.slide-img {
+    width: 100%;
+    height: 100%; 
+}
+
+.btn-wraper{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  position: relative;
+}
+
+.hero-sec .content-sec .readmore-btn{
+    padding: 20px 40px 20px 40px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    transition: all 0.4s linear;
+    box-shadow: 0px 15px 25px 0px rgb(0 0 0 / 10%);
+}
+
+.about .btn-wraper{
+  margin-top: 15px;
+}
+
+/*-----------------------------------------
+            hero section end !
+-----------------------------------------*/
+
+.feature-area {
+    position: relative;
+}
+
+.feature-area .feature-box{
+  display: block;
+  text-align: left;
+  padding: 10px;
+}
+
+.feature-area .feature-box .icon {
+    font-size: 60px;
+}
+
+.feature-area .feature-box .title {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.icon:hover {
+    transition: 0.2s ease-in-out;
+}
+
+.feature-area .feature-box .title a {
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.feature-area .feature-box .description{
+    padding-top: 20px;
+}
+
+.feature-area .img-box{
+  margin: 0px 0px 0px -56px; 
+}
+
+
+/*---------------------------------------------
+                feature section end         
+---------------------------------------------*/
+
+/*-------------------------------------------
+              services 
+-------------------------------------------*/  
+.services-5 .service-box {
+  padding: 60px 60px 55px 50px;
+  text-align: center;
+  text-align: left;
+  transition: all 0.2s;
+  margin-left: -40px;
+}
+
+.services-5 .service-box i {
+  font-size: 50px;
+}
+
+.services-5 .service-box h4 {
+  margin: 30px 0;
+}
+
+.services-5 .service-box h4 a {
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.services-5 .service-box p {
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 1px
+}
+
+.services-5 a img {
+  width: 60px;
+  height: 60px;
+}
+
+@media(max-width: 425px){
+  .services-5 .service-box  {
+    padding: 30px 30px 20px 50px;
+  }
+}
+/*-----------------------------------------
+              service end!                
+-----------------------------------------*/              
+.cta-7 {
+    padding: 100px 0;
+}
+
+.cta-7 h3{
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.cta-7 h2{
+  text-transform: capitalize;
+  font-size: 48px;
+  font-weight: 700; 
+}
+
+.cta-7 p{
+  letter-spacing: 1px;
+  max-width: 800px;
+  margin: auto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.cta-7 .flex-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-7 .btn{
+    padding: 9px 38px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 0;
+    font-size: 15px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*----------------------------------------------
+              cta section end        
+----------------------------------------------*/
+
+/*----------------------------------------------
+               portfolio item
+----------------------------------------------*/
+.portfolio-5 .portfolio-item {
+   margin-bottom: 30px;
+}
+
+.portfolio-box{
+     overflow: hidden;
+     position: relative;
+     margin: 20px;
+     background-size: cover;
+}
+
+ .portfolio-box:before{
+     content: '';
+     transform: scaleY(0);
+     position: absolute;
+     left: 12px;
+     top: 12px;
+     bottom: 12px;
+     right: 12px;
+     z-index: 1;
+     transition: all 0.5s ease 0s;
+     background-repeat: no-repeat;
+ }
+
+ .portfolio-box:hover:before{ 
+    transform: scaleY(1); 
+ }
+
+ .portfolio-box img{
+     width: 100%;
+     height: auto;
+     transition: all 0.5s ease 0s;
+ }
+
+ .portfolio-box:hover img{
+     opacity: 0.2;
+     transform: scale(1.1);
+     background-repeat: no-repeat;
+ }
+
+ .portfolio-box .portfolio-box-content{
+     text-align: center;
+     width: 90%;
+     filter: blur(5px);
+     opacity: 0;
+     transform: translateX(-50%) translateY(50%);
+     position: absolute;
+     bottom: 60%;
+     left: 50%;
+     z-index: 2;
+     transition: all 0.5s ease 0.2s;
+ }
+
+ .portfolio-box:hover .portfolio-box-content{
+     filter: blur(0);
+     opacity: 1;
+ }
+
+ .portfolio-box .title {
+     font-size: 15px;
+     font-weight: 700;
+     letter-spacing: 0.5px;
+     text-transform: capitalize;
+     margin: 0;
+     transition: all 0.5s;
+     padding-top: 140px;
+   }
+
+.portfolio-box p {
+    font-weight: 300;
+}
+ 
+ .portfolio-box .icon {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     opacity: 0;
+     transform: translateX(-50%) scale(0);
+     position: absolute;
+     left: 50%;
+     bottom: 35%;
+     z-index: 1;
+     transition: all 0.3s ease 0.3s;
+ }
+
+ .portfolio-box:hover .icon {
+     opacity: 1;
+     transform: translateX(-50%) scale(1);
+ }
+
+ .portfolio-box .icon li {
+     margin: 0 3px;
+     display: inline-block;
+ }
+
+ .portfolio-box .icon li a {
+     background-color: transparent;
+     font-size: 25px;
+     display: block;
+     transition: all 0.3s ease 0s;
+ }
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 20px;
+  border-radius: 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    width: 30px;
+    transition: 0.4s
+}
+
+/*-------------------------------------------
+          START TESTIMONIAL
+-------------------------------------------*/
+
+#testimonials{
+  position: relative;
+  width: 100%;
+}
+
+#testimonials .testimonial{
+  margin: 10px;
+  position: relative;
+}
+
+#testimonials .testimonials-content .testimonial-desc {
+    padding: 54px 45px 10px 45px;
+    font-size: 20px;
+    line-height: 36px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#testimonials .testimonial .client-desc{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    text-align: left; 
+    margin-left: 70px;
+}
+
+#testimonials .testimonials-content .testimonial-pic{
+  position: relative;
+  padding: 10px 35px;
+}
+
+#testimonials .testimonials-content .testimonial-pic img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#testimonials .testimonials-content .testimonial-profile{
+    margin-left: 0px;
+}
+
+#testimonials .testimonials-content .testimonial-profile span {
+    display: block;
+    text-transform: capitalize;
+}
+
+#testimonials .testimonials-content p {
+      font-size: 20px;
+    margin: 0 auto;
+    padding: 54px 45px 10px 45px;
+    justify-content: flex-start;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 80%;
+}
+#testimonials .testimonials-content .testimonial-profile span.name {
+    font-weight: 700;
+}
+
+#testimonials .testimonials-content .testimonial-profile span.post {
+    font-weight: 700;
+}
+
+.font1 {
+  font-size: 50px;
+  position: absolute;
+  left: 110px;
+  display: block;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    outline: none;
+} 
+
+#testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 40px;
+}
+
+#testimonials .owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 10px;
+    margin: 12px 7px;
+}
+
+@media(max-width: 362px){
+  .testimonials-content .testimonial-profile span {
+    margin-left: 55px;
+  }
+}
+
+@media(max-width: 362px) {
+  #testimonials .testimonials-content p {
+    padding: 10px;
+    margin-left: 50px;
+    padding-top: 30px;
+  }
+}
+
+/*---------------------------------------------
+            Start team section 
+---------------------------------------------*/            
+
+.our-team-sec .section-bg{
+    position: relative;
+    width: 100%;
+}
+
+.our-team-sec .our-team{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+
+.our-team-sec .our-team img{
+    width: 100%;
+    height: auto;
+}
+
+.our-team-sec .our-team .team-content{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(0deg, #000000BF 0%, #F2295DBF 140%);
+    padding-top: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: all 0.5s;
+}
+
+.our-team-sec .our-team:hover .team-content{ 
+    transform: translateY(0); 
+}
+
+.our-team-sec .our-team .title{
+    display: block;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.our-team-sec .our-team .post{
+    display: block;
+    font-size: 17px;
+}
+
+.our-team-sec .our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.our-team-sec .our-team .social li{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.our-team-sec .our-team .social li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease 5s;
+}
+
+/*------------------------------------------------
+            News & blog start
+--------------------------------------------------*/          
+.blog-5 .box{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.blog-5 .box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.6s ease;
+}
+
+.blog-5 .box:hover img{
+    opacity: 0.2;
+    transform: scale(1.2);
+}
+
+.blog-5 .box .box-content{
+    width: 100%;
+    padding: 0 20px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: all 0.5s ease;
+} 
+
+.blog-5 .box .box-content h3 {
+  font-size: 18px;
+}
+
+.blog-5 .box:hover .box-content{
+    opacity: 1;
+    top: 30%;
+}
+
+.blog-5 .btn-wraper1 {
+  padding: 10px;
+}
+
+.blog-5 .btn-wraper1:hover {
+  border: none;
+}
+
+.blog-5 .box .title{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+}
+
+.blog-5 .box .post{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.blog-5 .box .icon{
+    font-size: 0;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.blog-5 .box .icon li{
+    width: 50%;
+    padding: 7px 15px;
+    display: inline-block;
+    opacity: 0;
+    transform: translate(-20px,20px);
+    transition: all 0.5s ease 0s;
+}
+
+.blog-5 .box .icon li:nth-child(2){
+    text-align: right;
+    transform: translate(20px,20px);
+}
+
+.blog-5 .box:hover .icon li{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.blog-5 .box .icon li a{
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+/*-----------------------------------------
+          footer start 
+-------------------------------------------*/
+.footer{
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.footer .foot-top .logo img{
+  width: 235px;
+}
+
+.footer .foot-top h2{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.footer .foot-top .menu-link,
+.footer .foot-top .social-icon{
+  margin-top: 50px;
+}
+
+.footer .foot-top .menu-link li{
+  display: inline-block;
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.footer .foot-top .menu-link li:hover a{
+  transition: all 0.3s;
+}
+
+.footer .foot-top .social-icon li{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.footer .foot-top .social-icon li i{
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.footer .foot-top .social-icon p{
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.footer .foot-top .heading-con{
+  position: relative;
+  font-size: 19px;
+  margin: 20px 0 40px 0;
+}
+.footer .foot-top .address-list ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer .foot-top .address-list i{
+  margin-right: 15px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.footer .foot-top .address-list li{
+ display: flex;
+ cursor: pointer;
+}
+
+@media screen and (max-width: 992px){
+.navbar-expand-lg .menu-toggle {
+    margin-top: -40px;
+}
+}
+
+.owl-nav, .owl-dots {
+    display: block;
+}
+
+.main-menu {
+    width: 100%;
+  }
+  
+.section-title-5 .separator ul li {
+	  display: contents;
+}

@@ -1,0 +1,1354 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 12:32:50
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.0.24                                |7.4.26
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.26 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.51 (Win64) PHP/7.4.26
+DOC ROOT____________: "C:/wamp64/www/public/metacode"
+REQUEST URL_________: "http://public/metacode"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/wamp64/www/public/metacode"
+URL_NEW_____________: "http://public/metacode"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/wamp64/www/public/metacode/20221011_metacode_[HASH]_20221011122545_archive.zip"
+ARCHIVE SIZE________: 96.85MB
+CREATED_____________: 2022-10-11 12:25:45
+WP VERSION__________: 6.0.2
+DUP VERSION_________: 1.5.0
+LICENSE_____________: Free version
+DB VERSION__________: 10.6.10
+DB FILE SIZE________: 13.05MB
+DB TABLES___________: 90
+DB ROWS_____________: 7458
+URL HOME____________: https://metacode-mekg.fr
+URL CORE____________: https://metacode-mekg.fr
+URL CONTENT_________: https://metacode-mekg.fr/wp-content
+URL UPLOAD__________: https://metacode-mekg.fr/wp-content/uploads
+URL PLUGINS_________: https://metacode-mekg.fr/wp-content/plugins
+URL MU PLUGINS______: https://metacode-mekg.fr/wp-content/mu-plugins
+URL THEMES__________: https://metacode-mekg.fr/wp-content/themes
+PATH HOME___________: /homepages/10/d4296763228/htdocs/wordpress
+PATH ABS____________: /homepages/10/d4296763228/htdocs/wordpress
+PATH WPCONFIG_______: /homepages/10/d4296763228/htdocs/wordpress
+PATH WPCONTENT______: /homepages/10/d4296763228/htdocs/wordpress/wp-content
+PATH UPLOADS________: /homepages/10/d4296763228/htdocs/wordpress/wp-content/uploads
+PATH PLUGINS________: /homepages/10/d4296763228/htdocs/wordpress/wp-content/plugins
+PATH MUPLUGINS______: /homepages/10/d4296763228/htdocs/wordpress/wp-content/mu-plugins
+PATH THEMES_________: /homepages/10/d4296763228/htdocs/wordpress/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "metacode-mekg.fr/"
+
+PLUGINS
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:facebook-for-woocommerce/facebook-for-woocommerce.php][ON:true ]  Facebook for WooCommerce
+PLUGIN [SLUG:google-listings-and-ads/google-listings-and-ads.php][ON:true ]  Google Listings and Ads
+PLUGIN [SLUG:ionos-assistant/ionos-assistant.php               ][ON:true ]  IONOS Assistant
+PLUGIN [SLUG:ionos-help-center/ionos-help-center.php           ][ON:false]  IONOS Help
+PLUGIN [SLUG:ionos-journey/ionos-journey.php                   ][ON:false]  IONOS Journey
+PLUGIN [SLUG:ionos-sso/ionos-sso.php                           ][ON:true ]  IONOS Login
+PLUGIN [SLUG:ionos-navigation/ionos-navigation.php             ][ON:false]  IONOS Navigation
+PLUGIN [SLUG:ionos-performance/ionos-performance.php           ][ON:true ]  IONOS Performance
+PLUGIN [SLUG:jetpack/jetpack.php                               ][ON:true ]  Jetpack
+PLUGIN [SLUG:limit-login-attempts-reloaded/limit-login-attempts-reloaded.php][ON:true ]  Limit Login Attempts Reloaded
+PLUGIN [SLUG:mailpoet/mailpoet.php                             ][ON:true ]  MailPoet
+PLUGIN [SLUG:custom-css-js/custom-css-js.php                   ][ON:true ]  Simple Custom CSS and JS
+PLUGIN [SLUG:updraftplus/updraftplus.php                       ][ON:true ]  UpdraftPlus - Backup/Restore
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:woocommerce-payments/woocommerce-payments.php     ][ON:true ]  WooCommerce Payments
+PLUGIN [SLUG:woocommerce-services/woocommerce-services.php     ][ON:true ]  WooCommerce Shipping & Tax
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ]  Yoast SEO
+PLUGIN [SLUG:ionos-marketplace.php                             ][ON:false]  IONOS Marketplace
+PLUGIN [SLUG:automation-by-installatron.php                    ][ON:false]  WordPress automation by Installatron
+
+********************************************************************************
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.41286]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.32345]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00111]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+LOG-TIME[DELTA:   0.04580]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00038]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: soft warning
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.02086]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.05647]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00055]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.02602]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00373]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00057]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02186]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00114]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00110]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00108]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00060]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00066]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 12:35:46
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "boutique-wordpress"
+HOME URL NEW________: "http://public/metacode"
+SITE URL NEW________: "http://public/metacode/"
+CONTENT URL NEW_____: "http://public/metacode/wp-content"
+UPLOAD URL NEW______: "http://public/metacode/wp-content/uploads"
+PLUGINS URL NEW_____: "http://public/metacode/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://public/metacode/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/wamp64/www/public/metacode"
+SITE PATH NEW_______: "C:/wamp64/www/public/metacode/"
+CONTENT PATH NEW____: "C:/wamp64/www/public/metacode/wp-content"
+UPLOAD PATH NEW_____: "C:/wamp64/www/public/metacode/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/wamp64/www/public/metacode/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/wamp64/www/public/metacode/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/wamp64/www/public/metacode/dup-installer"
+	FILE: "C:/wamp64/www/public/metacode/20221011_metacode_[HASH]_20221011122545_installer-backup.php"
+	FILE: "C:/wamp64/www/public/metacode/20221011_metacode_[HASH]_20221011122545_archive.zip"
+	FILE: "C:/wamp64/www/public/metacode/installer.php"
+	FILE: "C:/wamp64/www/public/metacode/dup-installer-bootlog__dcd7761-11122545.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20221011_metacode_[HASH]_20221011122545_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0220 sec. - Files processed: 6,263 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6263
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0218 sec. - Files processed: 8,697 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8697
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0111 sec. - Files processed: 11,209 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11209
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0426 sec. - Files processed: 13,957 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13957
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0181 sec. - Files processed: 16,155 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16155
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0372 sec. - Files processed: 18,233 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 18233
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0171 sec. - Files processed: 20,801 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 20801
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0397 sec. - Files processed: 23,947 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 23947
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0227 sec. - Files processed: 26,390 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 26390
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0228 sec. - Files processed: 29,023 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 29023
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/public/metacode"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 29988
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 12:36:38 - RUNTIME: 52.8788 sec. - Files processed: 29,388 of 29,388
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 hguy_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 12:36:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "hguy_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "hguy_actionscheduler_actions"____________________[ROWS:     876] [EXTRACT|REPLACE] [INST NAME: hguy_actionscheduler_actions]
+TABLE "hguy_actionscheduler_claims"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_actionscheduler_claims]
+TABLE "hguy_actionscheduler_groups"_____________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: hguy_actionscheduler_groups]
+TABLE "hguy_actionscheduler_logs"_______________________[ROWS:    2622] [EXTRACT|REPLACE] [INST NAME: hguy_actionscheduler_logs]
+TABLE "hguy_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_commentmeta]
+TABLE "hguy_comments"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_comments]
+TABLE "hguy_duplicator_packages"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_duplicator_packages]
+TABLE "hguy_e_events"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_e_events]
+TABLE "hguy_gla_budget_recommendations"_________________[ROWS:    4230] [EXTRACT|REPLACE] [INST NAME: hguy_gla_budget_recommendations]
+TABLE "hguy_gla_merchant_issues"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_gla_merchant_issues]
+TABLE "hguy_gla_shipping_rates"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_gla_shipping_rates]
+TABLE "hguy_gla_shipping_times"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_gla_shipping_times]
+TABLE "hguy_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_links]
+TABLE "hguy_mailpoet_custom_fields"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_custom_fields]
+TABLE "hguy_mailpoet_dynamic_segment_filters"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_dynamic_segment_filters]
+TABLE "hguy_mailpoet_feature_flags"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_feature_flags]
+TABLE "hguy_mailpoet_forms"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_forms]
+TABLE "hguy_mailpoet_log"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_log]
+TABLE "hguy_mailpoet_newsletters"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_newsletters]
+TABLE "hguy_mailpoet_newsletter_links"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_newsletter_links]
+TABLE "hguy_mailpoet_newsletter_option"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_newsletter_option]
+TABLE "hguy_mailpoet_newsletter_option_fields"__________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_newsletter_option_fields]
+TABLE "hguy_mailpoet_newsletter_posts"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_newsletter_posts]
+TABLE "hguy_mailpoet_newsletter_segment"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_newsletter_segment]
+TABLE "hguy_mailpoet_newsletter_templates"______________[ROWS:      78] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_newsletter_templates]
+TABLE "hguy_mailpoet_scheduled_tasks"___________________[ROWS:      33] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_scheduled_tasks]
+TABLE "hguy_mailpoet_scheduled_task_subscribers"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_scheduled_task_subscribers]
+TABLE "hguy_mailpoet_segments"__________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_segments]
+TABLE "hguy_mailpoet_sending_queues"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_sending_queues]
+TABLE "hguy_mailpoet_settings"__________________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_settings]
+TABLE "hguy_mailpoet_statistics_bounces"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_statistics_bounces]
+TABLE "hguy_mailpoet_statistics_clicks"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_statistics_clicks]
+TABLE "hguy_mailpoet_statistics_forms"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_statistics_forms]
+TABLE "hguy_mailpoet_statistics_newsletters"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_statistics_newsletters]
+TABLE "hguy_mailpoet_statistics_opens"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_statistics_opens]
+TABLE "hguy_mailpoet_statistics_unsubscribes"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_statistics_unsubscribes]
+TABLE "hguy_mailpoet_statistics_woocommerce_purchases"__[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_statistics_woocommerce_purchases]
+TABLE "hguy_mailpoet_stats_notifications"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_stats_notifications]
+TABLE "hguy_mailpoet_subscribers"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_subscribers]
+TABLE "hguy_mailpoet_subscriber_custom_field"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_subscriber_custom_field]
+TABLE "hguy_mailpoet_subscriber_ips"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_subscriber_ips]
+TABLE "hguy_mailpoet_subscriber_segment"________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_subscriber_segment]
+TABLE "hguy_mailpoet_subscriber_tag"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_subscriber_tag]
+TABLE "hguy_mailpoet_tags"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_tags]
+TABLE "hguy_mailpoet_user_agents"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_user_agents]
+TABLE "hguy_mailpoet_user_flags"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_mailpoet_user_flags]
+TABLE "hguy_options"____________________________________[ROWS:     625] [EXTRACT|REPLACE] [INST NAME: hguy_options]
+TABLE "hguy_postmeta"___________________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: hguy_postmeta]
+TABLE "hguy_posts"______________________________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: hguy_posts]
+TABLE "hguy_termmeta"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_termmeta]
+TABLE "hguy_terms"______________________________________[ROWS:      16] [EXTRACT|REPLACE] [INST NAME: hguy_terms]
+TABLE "hguy_term_relationships"_________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: hguy_term_relationships]
+TABLE "hguy_term_taxonomy"______________________________[ROWS:      16] [EXTRACT|REPLACE] [INST NAME: hguy_term_taxonomy]
+TABLE "hguy_usermeta"___________________________________[ROWS:      71] [EXTRACT|REPLACE] [INST NAME: hguy_usermeta]
+TABLE "hguy_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_users]
+TABLE "hguy_wc_admin_notes"_____________________________[ROWS:      50] [EXTRACT|REPLACE] [INST NAME: hguy_wc_admin_notes]
+TABLE "hguy_wc_admin_note_actions"______________________[ROWS:      57] [EXTRACT|REPLACE] [INST NAME: hguy_wc_admin_note_actions]
+TABLE "hguy_wc_category_lookup"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_wc_category_lookup]
+TABLE "hguy_wc_customer_lookup"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_customer_lookup]
+TABLE "hguy_wc_download_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_download_log]
+TABLE "hguy_wc_order_coupon_lookup"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_order_coupon_lookup]
+TABLE "hguy_wc_order_product_lookup"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_order_product_lookup]
+TABLE "hguy_wc_order_stats"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_order_stats]
+TABLE "hguy_wc_order_tax_lookup"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_order_tax_lookup]
+TABLE "hguy_wc_product_attributes_lookup"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_product_attributes_lookup]
+TABLE "hguy_wc_product_download_directories"____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: hguy_wc_product_download_directories]
+TABLE "hguy_wc_product_meta_lookup"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_product_meta_lookup]
+TABLE "hguy_wc_rate_limits"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_rate_limits]
+TABLE "hguy_wc_reserved_stock"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_reserved_stock]
+TABLE "hguy_wc_tax_rate_classes"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: hguy_wc_tax_rate_classes]
+TABLE "hguy_wc_webhooks"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_wc_webhooks]
+TABLE "hguy_woocommerce_api_keys"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_api_keys]
+TABLE "hguy_woocommerce_attribute_taxonomies"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_attribute_taxonomies]
+TABLE "hguy_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_downloadable_product_permissions]
+TABLE "hguy_woocommerce_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_log]
+TABLE "hguy_woocommerce_order_itemmeta"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_order_itemmeta]
+TABLE "hguy_woocommerce_order_items"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_order_items]
+TABLE "hguy_woocommerce_payment_tokenmeta"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_payment_tokenmeta]
+TABLE "hguy_woocommerce_payment_tokens"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_payment_tokens]
+TABLE "hguy_woocommerce_sessions"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_sessions]
+TABLE "hguy_woocommerce_shipping_zones"_________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_shipping_zones]
+TABLE "hguy_woocommerce_shipping_zone_locations"________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_shipping_zone_locations]
+TABLE "hguy_woocommerce_shipping_zone_methods"__________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_shipping_zone_methods]
+TABLE "hguy_woocommerce_tax_rates"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_tax_rates]
+TABLE "hguy_woocommerce_tax_rate_locations"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_woocommerce_tax_rate_locations]
+TABLE "hguy_yoast_indexable"____________________________[ROWS:      19] [EXTRACT|REPLACE] [INST NAME: hguy_yoast_indexable]
+TABLE "hguy_yoast_indexable_hierarchy"__________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: hguy_yoast_indexable_hierarchy]
+TABLE "hguy_yoast_migrations"___________________________[ROWS:      23] [EXTRACT|REPLACE] [INST NAME: hguy_yoast_migrations]
+TABLE "hguy_yoast_primary_term"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: hguy_yoast_primary_term]
+TABLE "hguy_yoast_seo_links"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: hguy_yoast_seo_links]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.36 -- Build Server: 10.6.10
+FILE SIZE:	dup-database__[HASH].sql (5.08MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+GLOBAL RULES ADDED: INVALID CHARSETS
+GLOBAL RULES ADDED: INVALID COLLATIONS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;]+)([`'"]?.*$)/m
+	REPLACE => $1utf8$3utf8_general_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;]+)([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?[\s;].*$)/m
+	REPLACE => $1utf8_general_ci$3utf8$5
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?[\s;].*$)/m
+	REPLACE => $1utf8$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;]+)([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?[\s;].*$)/m
+	REPLACE => $1utf8$3utf8_general_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;]+)([`'"]?.*$)/m
+	REPLACE => $1utf8_general_ci$3utf8$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?[\s;].*$)/m
+	REPLACE => $1utf8_general_ci$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	770
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "hguy_actionscheduler_actions"____________________[ROWS:   876]
+TABLE "hguy_actionscheduler_claims"_____________________[ROWS:     0]
+TABLE "hguy_actionscheduler_groups"_____________________[ROWS:     4]
+TABLE "hguy_actionscheduler_logs"_______________________[ROWS:  2622]
+TABLE "hguy_commentmeta"________________________________[ROWS:     0]
+TABLE "hguy_comments"___________________________________[ROWS:     1]
+TABLE "hguy_duplicator_packages"________________________[ROWS:     1]
+TABLE "hguy_e_events"___________________________________[ROWS:     1]
+TABLE "hguy_gla_budget_recommendations"_________________[ROWS:  4230]
+TABLE "hguy_gla_merchant_issues"________________________[ROWS:     0]
+TABLE "hguy_gla_shipping_rates"_________________________[ROWS:     0]
+TABLE "hguy_gla_shipping_times"_________________________[ROWS:     0]
+TABLE "hguy_links"______________________________________[ROWS:     0]
+TABLE "hguy_mailpoet_custom_fields"_____________________[ROWS:     0]
+TABLE "hguy_mailpoet_dynamic_segment_filters"___________[ROWS:     0]
+TABLE "hguy_mailpoet_feature_flags"_____________________[ROWS:     0]
+TABLE "hguy_mailpoet_forms"_____________________________[ROWS:     0]
+TABLE "hguy_mailpoet_log"_______________________________[ROWS:     0]
+TABLE "hguy_mailpoet_newsletter_links"__________________[ROWS:     0]
+TABLE "hguy_mailpoet_newsletter_option"_________________[ROWS:     0]
+TABLE "hguy_mailpoet_newsletter_option_fields"__________[ROWS:    24]
+TABLE "hguy_mailpoet_newsletter_posts"__________________[ROWS:     0]
+TABLE "hguy_mailpoet_newsletter_segment"________________[ROWS:     0]
+TABLE "hguy_mailpoet_newsletter_templates"______________[ROWS:    78]
+TABLE "hguy_mailpoet_newsletters"_______________________[ROWS:     0]
+TABLE "hguy_mailpoet_scheduled_task_subscribers"________[ROWS:     0]
+TABLE "hguy_mailpoet_scheduled_tasks"___________________[ROWS:    33]
+TABLE "hguy_mailpoet_segments"__________________________[ROWS:     3]
+TABLE "hguy_mailpoet_sending_queues"____________________[ROWS:     0]
+TABLE "hguy_mailpoet_settings"__________________________[ROWS:    17]
+TABLE "hguy_mailpoet_statistics_bounces"________________[ROWS:     0]
+TABLE "hguy_mailpoet_statistics_clicks"_________________[ROWS:     0]
+TABLE "hguy_mailpoet_statistics_forms"__________________[ROWS:     0]
+TABLE "hguy_mailpoet_statistics_newsletters"____________[ROWS:     0]
+TABLE "hguy_mailpoet_statistics_opens"__________________[ROWS:     0]
+TABLE "hguy_mailpoet_statistics_unsubscribes"___________[ROWS:     0]
+TABLE "hguy_mailpoet_statistics_woocommerce_purchases"__[ROWS:     0]
+TABLE "hguy_mailpoet_stats_notifications"_______________[ROWS:     0]
+TABLE "hguy_mailpoet_subscriber_custom_field"___________[ROWS:     0]
+TABLE "hguy_mailpoet_subscriber_ips"____________________[ROWS:     0]
+TABLE "hguy_mailpoet_subscriber_segment"________________[ROWS:     1]
+TABLE "hguy_mailpoet_subscriber_tag"____________________[ROWS:     0]
+TABLE "hguy_mailpoet_subscribers"_______________________[ROWS:     1]
+TABLE "hguy_mailpoet_tags"______________________________[ROWS:     0]
+TABLE "hguy_mailpoet_user_agents"_______________________[ROWS:     0]
+TABLE "hguy_mailpoet_user_flags"________________________[ROWS:     0]
+TABLE "hguy_options"____________________________________[ROWS:   623]
+TABLE "hguy_postmeta"___________________________________[ROWS:    11]
+TABLE "hguy_posts"______________________________________[ROWS:    15]
+TABLE "hguy_term_relationships"_________________________[ROWS:     3]
+TABLE "hguy_term_taxonomy"______________________________[ROWS:    16]
+TABLE "hguy_termmeta"___________________________________[ROWS:     0]
+TABLE "hguy_terms"______________________________________[ROWS:    16]
+TABLE "hguy_usermeta"___________________________________[ROWS:    71]
+TABLE "hguy_users"______________________________________[ROWS:     1]
+TABLE "hguy_wc_admin_note_actions"______________________[ROWS:    57]
+TABLE "hguy_wc_admin_notes"_____________________________[ROWS:    50]
+TABLE "hguy_wc_category_lookup"_________________________[ROWS:     1]
+TABLE "hguy_wc_customer_lookup"_________________________[ROWS:     0]
+TABLE "hguy_wc_download_log"____________________________[ROWS:     0]
+TABLE "hguy_wc_order_coupon_lookup"_____________________[ROWS:     0]
+TABLE "hguy_wc_order_product_lookup"____________________[ROWS:     0]
+TABLE "hguy_wc_order_stats"_____________________________[ROWS:     0]
+TABLE "hguy_wc_order_tax_lookup"________________________[ROWS:     0]
+TABLE "hguy_wc_product_attributes_lookup"_______________[ROWS:     0]
+TABLE "hguy_wc_product_download_directories"____________[ROWS:     2]
+TABLE "hguy_wc_product_meta_lookup"_____________________[ROWS:     0]
+TABLE "hguy_wc_rate_limits"_____________________________[ROWS:     0]
+TABLE "hguy_wc_reserved_stock"__________________________[ROWS:     0]
+TABLE "hguy_wc_tax_rate_classes"________________________[ROWS:     2]
+TABLE "hguy_wc_webhooks"________________________________[ROWS:     0]
+TABLE "hguy_woocommerce_api_keys"_______________________[ROWS:     0]
+TABLE "hguy_woocommerce_attribute_taxonomies"___________[ROWS:     0]
+TABLE "hguy_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "hguy_woocommerce_log"____________________________[ROWS:     0]
+TABLE "hguy_woocommerce_order_itemmeta"_________________[ROWS:     0]
+TABLE "hguy_woocommerce_order_items"____________________[ROWS:     0]
+TABLE "hguy_woocommerce_payment_tokenmeta"______________[ROWS:     0]
+TABLE "hguy_woocommerce_payment_tokens"_________________[ROWS:     0]
+TABLE "hguy_woocommerce_sessions"_______________________[ROWS:     1]
+TABLE "hguy_woocommerce_shipping_zone_locations"________[ROWS:     1]
+TABLE "hguy_woocommerce_shipping_zone_methods"__________[ROWS:     1]
+TABLE "hguy_woocommerce_shipping_zones"_________________[ROWS:     1]
+TABLE "hguy_woocommerce_tax_rate_locations"_____________[ROWS:     0]
+TABLE "hguy_woocommerce_tax_rates"______________________[ROWS:     0]
+TABLE "hguy_yoast_indexable"____________________________[ROWS:    19]
+TABLE "hguy_yoast_indexable_hierarchy"__________________[ROWS:    10]
+TABLE "hguy_yoast_migrations"___________________________[ROWS:    23]
+TABLE "hguy_yoast_primary_term"_________________________[ROWS:     0]
+TABLE "hguy_yoast_seo_links"____________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 5.5929 sec.
+STEP-2 COMPLETE @ 12:36:44 - RUNTIME: 5.5931 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /homepages/10/d4296763228/htdocs/wordpress REPLACE: C:/wamp64/www/public/metacode/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /homepages/10/d4296763228/htdocs/wordpress REPLACE: C:/wamp64/www/public/metacode [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://metacode-mekg.fr REPLACE: http://public/metacode/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://metacode-mekg.fr REPLACE: http://public/metacode [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 12:36:44
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = 1], [inWpConfig = 1]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = -1], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = C:/wamp64/www/public/metacode/wp-content/uploads], [inWpConfig = 1]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [hguy_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:   173]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "hguy_actionscheduler_actions"____________________[ROWS:   876][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_actionscheduler_actions][0]
+
+EVALUATE TABLE: "hguy_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_actionscheduler_groups"_____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_actionscheduler_groups][0]
+
+EVALUATE TABLE: "hguy_actionscheduler_logs"_______________________[ROWS:  2622][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_actionscheduler_logs][0]
+	CHUNK ACTION: CURRENT [search_replace][hguy_actionscheduler_logs][1]
+	CHUNK ACTION: CURRENT [search_replace][hguy_actionscheduler_logs][2]
+
+EVALUATE TABLE: "hguy_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_comments][0]
+
+EVALUATE TABLE: "hguy_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_e_events"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_e_events][0]
+
+EVALUATE TABLE: "hguy_gla_budget_recommendations"_________________[ROWS:  4230][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_gla_budget_recommendations][0]
+	CHUNK ACTION: CURRENT [search_replace][hguy_gla_budget_recommendations][1]
+	CHUNK ACTION: CURRENT [search_replace][hguy_gla_budget_recommendations][2]
+	CHUNK ACTION: CURRENT [search_replace][hguy_gla_budget_recommendations][3]
+	CHUNK ACTION: CURRENT [search_replace][hguy_gla_budget_recommendations][4]
+
+EVALUATE TABLE: "hguy_gla_merchant_issues"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_gla_shipping_rates"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_gla_shipping_times"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_custom_fields"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_dynamic_segment_filters"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_feature_flags"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_forms"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_log"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_newsletters"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_newsletter_links"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_newsletter_option"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_newsletter_option_fields"__________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_mailpoet_newsletter_option_fields][0]
+
+EVALUATE TABLE: "hguy_mailpoet_newsletter_posts"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_newsletter_segment"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_newsletter_templates"______________[ROWS:    78][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_mailpoet_newsletter_templates][0]
+
+EVALUATE TABLE: "hguy_mailpoet_scheduled_tasks"___________________[ROWS:    33][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_mailpoet_scheduled_tasks][0]
+
+EVALUATE TABLE: "hguy_mailpoet_scheduled_task_subscribers"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_segments"__________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_mailpoet_segments][0]
+
+EVALUATE TABLE: "hguy_mailpoet_sending_queues"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_settings"__________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_mailpoet_settings][0]
+
+EVALUATE TABLE: "hguy_mailpoet_statistics_bounces"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_statistics_clicks"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_statistics_forms"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_statistics_newsletters"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_statistics_opens"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_statistics_unsubscribes"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_statistics_woocommerce_purchases"__[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_stats_notifications"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_subscribers"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_mailpoet_subscribers][0]
+
+EVALUATE TABLE: "hguy_mailpoet_subscriber_custom_field"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_subscriber_ips"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_subscriber_segment"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_mailpoet_subscriber_segment][0]
+
+EVALUATE TABLE: "hguy_mailpoet_subscriber_tag"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_tags"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_user_agents"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_mailpoet_user_flags"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_options"____________________________________[ROWS:   450][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_options][0]
+
+EVALUATE TABLE: "hguy_postmeta"___________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_postmeta][0]
+
+EVALUATE TABLE: "hguy_posts"______________________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_posts][0]
+
+EVALUATE TABLE: "hguy_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_terms"______________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_terms][0]
+
+EVALUATE TABLE: "hguy_term_relationships"_________________________[ROWS:     3][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_term_taxonomy"______________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_term_taxonomy][0]
+
+EVALUATE TABLE: "hguy_usermeta"___________________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_usermeta][0]
+
+EVALUATE TABLE: "hguy_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_users][0]
+
+EVALUATE TABLE: "hguy_wc_admin_notes"_____________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_wc_admin_notes][0]
+
+EVALUATE TABLE: "hguy_wc_admin_note_actions"______________________[ROWS:    57][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "hguy_wc_category_lookup"_________________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_customer_lookup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_download_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_order_coupon_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_order_product_lookup"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_order_stats"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_order_tax_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_product_attributes_lookup"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_product_download_directories"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_wc_product_download_directories][0]
+
+EVALUATE TABLE: "hguy_wc_product_meta_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_rate_limits"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_reserved_stock"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_wc_tax_rate_classes"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "hguy_wc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_attribute_taxonomies"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_order_itemmeta"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_order_items"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_payment_tokenmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_payment_tokens"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_sessions"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_woocommerce_sessions][0]
+
+EVALUATE TABLE: "hguy_woocommerce_shipping_zones"_________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_woocommerce_shipping_zones][0]
+
+EVALUATE TABLE: "hguy_woocommerce_shipping_zone_locations"________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_woocommerce_shipping_zone_locations][0]
+
+EVALUATE TABLE: "hguy_woocommerce_shipping_zone_methods"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "hguy_woocommerce_tax_rates"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_woocommerce_tax_rate_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_yoast_indexable"____________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_yoast_indexable][0]
+
+EVALUATE TABLE: "hguy_yoast_indexable_hierarchy"__________________[ROWS:    10][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_yoast_migrations"___________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_yoast_migrations][0]
+
+EVALUATE TABLE: "hguy_yoast_primary_term"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "hguy_yoast_seo_links"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/homepages/10/d4296763228/htdocs/wordpress" ======> "C:/wamp64/www/public/metacode"
+	SEARCH[urlnd]  2:"https://metacode-mekg.fr" ========================> "http://public/metacode"
+	CHUNK ACTION: CURRENT [search_replace][hguy_yoast_seo_links][0]
+--------------------------------------
+SCANNED:	Tables:90 	|	 Rows:8629 	|	 Cells:52270 
+UPDATED:	Tables:9 	|	 Rows:113 	|	 Cells:114 
+ERRORS:		0 
+RUNTIME:	1.215400 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/wamp64/www/public/metacode/wp-config.php
+New htaccess file created:C:/wamp64/www/public/metacode/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://public/metacode/"
+	UPDATE DB_NAME ""meta_code""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE DISABLE_WP_CRON "true"
+	WP CONFIG UPDATE WP_TEMP_DIR "C:/wamp64/www/public/metacode/wp-content/uploads"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:36:46 - RUNTIME: 1.5813 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[NOTICE] Plugin Jetpack disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Jetpack has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate Jetpack after you login.
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/wamp64/www/public/metacode/index.php
+E_WARNING mkdir(): No such file or directory
+	FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2059]
+	--- TRACE ---
+	FUNCTION: mkdir                         FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2059]
+	FUNCTION: wp_mkdir_p                    FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2370]
+	FUNCTION: wp_upload_dir                 FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\lib\WP\Functions.php[610]
+	CLASS___: MailPoet\WP\Functions->wpUploadDirFILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\lib\Config\Env.php[58]
+	CLASS___: MailPoet\Config\Env::init     FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\mailpoet_initializer.php[70]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\mailpoet.php[144]
+	FUNCTION: include_once                  FILE: C:\wamp64\www\public\metacode\wp-settings.php[428]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-config.php[190]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\wamp64\www\public\metacode\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-content\wp_test_script_dcd7761-11122545.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING mkdir(): No such file or directory
+	FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2059]
+	--- TRACE ---
+	FUNCTION: mkdir                         FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2059]
+	FUNCTION: wp_mkdir_p                    FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\lib\Config\RequirementsChecker.php[50]
+	CLASS___: MailPoet\Config\RequirementsChecker->checkTempFolderCreationFILE: [-1]
+	FUNCTION: call_user_func                FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\lib\Config\RequirementsChecker.php[40]
+	CLASS___: MailPoet\Config\RequirementsChecker->checkAllRequirementsFILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\mailpoet_initializer.php[74]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\mailpoet.php[144]
+	FUNCTION: include_once                  FILE: C:\wamp64\www\public\metacode\wp-settings.php[428]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-config.php[190]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\wamp64\www\public\metacode\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-content\wp_test_script_dcd7761-11122545.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/wamp64/www/public/metacode//wp-login.php
+E_WARNING mkdir(): No such file or directory
+	FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2059]
+	--- TRACE ---
+	FUNCTION: mkdir                         FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2059]
+	FUNCTION: wp_mkdir_p                    FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2370]
+	FUNCTION: wp_upload_dir                 FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\lib\WP\Functions.php[610]
+	CLASS___: MailPoet\WP\Functions->wpUploadDirFILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\lib\Config\Env.php[58]
+	CLASS___: MailPoet\Config\Env::init     FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\mailpoet_initializer.php[70]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\mailpoet.php[144]
+	FUNCTION: include_once                  FILE: C:\wamp64\www\public\metacode\wp-settings.php[428]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-config.php[190]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\wamp64\www\public\metacode\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-content\wp_test_script_dcd7761-11122545.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING mkdir(): No such file or directory
+	FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2059]
+	--- TRACE ---
+	FUNCTION: mkdir                         FILE: C:\wamp64\www\public\metacode\wp-includes\functions.php[2059]
+	FUNCTION: wp_mkdir_p                    FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\lib\Config\RequirementsChecker.php[50]
+	CLASS___: MailPoet\Config\RequirementsChecker->checkTempFolderCreationFILE: [-1]
+	FUNCTION: call_user_func                FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\lib\Config\RequirementsChecker.php[40]
+	CLASS___: MailPoet\Config\RequirementsChecker->checkAllRequirementsFILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\mailpoet_initializer.php[74]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-content\plugins\mailpoet\mailpoet.php[144]
+	FUNCTION: include_once                  FILE: C:\wamp64\www\public\metacode\wp-settings.php[428]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-config.php[190]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\wamp64\www\public\metacode\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\public\metacode\wp-content\wp_test_script_dcd7761-11122545.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+====================================
+LOG-TIME[C:\wamp64\www\public\metacode\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.08117]  MESSAGE:END RENDER PAGE
